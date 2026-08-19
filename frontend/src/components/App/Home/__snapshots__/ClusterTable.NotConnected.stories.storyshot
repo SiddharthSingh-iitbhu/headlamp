@@ -567,28 +567,44 @@
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1n4xkg0-MuiTableCell-root"
             >
               <div
-                aria-label="Not connected. Connect to load this cluster."
                 class="MuiBox-root css-1rnoxx5"
-                data-mui-internal-clone-element="true"
               >
-                <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation css-1qnd4bl-MuiButtonBase-root-MuiButton-root"
-                  tabindex="0"
-                  type="button"
+                <span
+                  class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1g0vz9s-MuiCircularProgress-root"
+                  role="progressbar"
+                  style="width: 14px; height: 14px;"
                 >
-                  Connect
-                  <span
-                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                  />
-                </button>
+                  <svg
+                    class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                    viewBox="22 22 44 44"
+                  >
+                    <circle
+                      class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                      cx="44"
+                      cy="44"
+                      fill="none"
+                      r="20.2"
+                      stroke-width="3.6"
+                    />
+                  </svg>
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1p114l0-MuiTypography-root"
+                >
+                  Connecting…
+                </p>
               </div>
             </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-17iljsw-MuiTableCell-root"
-            />
+            >
+              2 warnings
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1qb9npk-MuiTableCell-root"
-            />
+            >
+              ⋯
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignRight MuiTableCell-sizeMedium css-133cxkx-MuiTableCell-root"
             >
@@ -679,20 +695,32 @@
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1n4xkg0-MuiTableCell-root"
             >
               <div
-                aria-label="Not connected. Connect to load this cluster."
                 class="MuiBox-root css-1rnoxx5"
-                data-mui-internal-clone-element="true"
               >
-                <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation css-1qnd4bl-MuiButtonBase-root-MuiButton-root"
-                  tabindex="0"
-                  type="button"
+                <span
+                  class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1g0vz9s-MuiCircularProgress-root"
+                  role="progressbar"
+                  style="width: 14px; height: 14px;"
                 >
-                  Connect
-                  <span
-                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                  />
-                </button>
+                  <svg
+                    class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                    viewBox="22 22 44 44"
+                  >
+                    <circle
+                      class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                      cx="44"
+                      cy="44"
+                      fill="none"
+                      r="20.2"
+                      stroke-width="3.6"
+                    />
+                  </svg>
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1p114l0-MuiTypography-root"
+                >
+                  Connecting…
+                </p>
               </div>
             </td>
             <td
@@ -700,7 +728,9 @@
             />
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1qb9npk-MuiTableCell-root"
-            />
+            >
+              ⋯
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignRight MuiTableCell-sizeMedium css-133cxkx-MuiTableCell-root"
             >
@@ -791,28 +821,44 @@
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1n4xkg0-MuiTableCell-root"
             >
               <div
-                aria-label="Not connected. Connect to load this cluster."
                 class="MuiBox-root css-1rnoxx5"
-                data-mui-internal-clone-element="true"
               >
-                <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation css-1qnd4bl-MuiButtonBase-root-MuiButton-root"
-                  tabindex="0"
-                  type="button"
+                <span
+                  class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1g0vz9s-MuiCircularProgress-root"
+                  role="progressbar"
+                  style="width: 14px; height: 14px;"
                 >
-                  Connect
-                  <span
-                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                  />
-                </button>
+                  <svg
+                    class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                    viewBox="22 22 44 44"
+                  >
+                    <circle
+                      class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                      cx="44"
+                      cy="44"
+                      fill="none"
+                      r="20.2"
+                      stroke-width="3.6"
+                    />
+                  </svg>
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1p114l0-MuiTypography-root"
+                >
+                  Connecting…
+                </p>
               </div>
             </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-17iljsw-MuiTableCell-root"
-            />
+            >
+              1 warning
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1qb9npk-MuiTableCell-root"
-            />
+            >
+              ⋯
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignRight MuiTableCell-sizeMedium css-133cxkx-MuiTableCell-root"
             >
@@ -903,20 +949,32 @@
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1n4xkg0-MuiTableCell-root"
             >
               <div
-                aria-label="Not connected. Connect to load this cluster."
                 class="MuiBox-root css-1rnoxx5"
-                data-mui-internal-clone-element="true"
               >
-                <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-colorPrimary MuiButton-disableElevation css-1qnd4bl-MuiButtonBase-root-MuiButton-root"
-                  tabindex="0"
-                  type="button"
+                <span
+                  class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-1g0vz9s-MuiCircularProgress-root"
+                  role="progressbar"
+                  style="width: 14px; height: 14px;"
                 >
-                  Connect
-                  <span
-                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                  />
-                </button>
+                  <svg
+                    class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+                    viewBox="22 22 44 44"
+                  >
+                    <circle
+                      class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                      cx="44"
+                      cy="44"
+                      fill="none"
+                      r="20.2"
+                      stroke-width="3.6"
+                    />
+                  </svg>
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1p114l0-MuiTypography-root"
+                >
+                  Connecting…
+                </p>
               </div>
             </td>
             <td
@@ -924,7 +982,9 @@
             />
             <td
               class="MuiTableCell-root MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1qb9npk-MuiTableCell-root"
-            />
+            >
+              ⋯
+            </td>
             <td
               class="MuiTableCell-root MuiTableCell-alignRight MuiTableCell-sizeMedium css-133cxkx-MuiTableCell-root"
             >

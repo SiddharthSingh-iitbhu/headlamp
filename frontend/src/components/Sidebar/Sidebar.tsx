@@ -50,8 +50,9 @@ export function useSidebarInfo() {
   const isSidebarOpenUserSelected = useTypedSelector(
     state => state.sidebar.isSidebarOpenUserSelected
   );
-  const isTemporary = useMediaQuery('(max-width:599px)');
-  const isNarrowOnly = useMediaQuery('(max-width:960px) and (min-width:600px)');
+  const theme = useTheme();
+  const isTemporary = useMediaQuery(theme.breakpoints.down('sm'));
+  const isNarrowOnly = useMediaQuery(theme.breakpoints.between('sm', 'md'));
   const temporarySideBarOpen =
     isSidebarOpen === true && isTemporary && isSidebarOpenUserSelected === true;
 

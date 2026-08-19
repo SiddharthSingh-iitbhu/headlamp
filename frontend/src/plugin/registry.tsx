@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { has } from 'lodash';
 import React, { ReactNode } from 'react';
 import { AppLogoProps, AppLogoType } from '../components/App/AppLogo';
@@ -182,6 +184,34 @@ export type { ApiResource } from '../lib/k8s/api/v2/ApiResource';
 export const DefaultHeadlampEvents = HeadlampEventType;
 export const DetailsViewDefaultHeaderActions = DefaultHeaderAction;
 export type { AppBarActionProcessorType };
+
+export interface LayoutBreakpoints {
+  isXs: boolean;
+  isSm: boolean;
+  isMd: boolean;
+  isLg: boolean;
+  isXl: boolean;
+  isMobile: boolean;
+  isTablet: boolean;
+  isDesktop: boolean;
+}
+
+/**
+ * A utility hook for plugins to access the application's unified responsive breakpoints.
+ */
+export function useLayoutBreakpoints(): LayoutBreakpoints {
+  const theme = useTheme();
+  return {
+    isXs: useMediaQuery(theme.breakpoints.only('xs')),
+    isSm: useMediaQuery(theme.breakpoints.only('sm')),
+    isMd: useMediaQuery(theme.breakpoints.only('md')),
+    isLg: useMediaQuery(theme.breakpoints.only('lg')),
+    isXl: useMediaQuery(theme.breakpoints.only('xl')),
+    isMobile: useMediaQuery(theme.breakpoints.down('sm')), // xs and sm
+    isTablet: useMediaQuery(theme.breakpoints.between('sm', 'md')), // sm and md
+    isDesktop: useMediaQuery(theme.breakpoints.up('md')), // md and up
+  };
+}
 /**
  * @deprecated please used DetailsViewSectionType and registerDetailViewSection
  */

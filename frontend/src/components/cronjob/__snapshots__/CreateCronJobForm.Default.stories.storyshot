@@ -47,7 +47,7 @@
                       id=":mock-test-id:"
                       required=""
                       type="text"
-                      value=""
+                      value="cleanup-job"
                     />
                     <fieldset
                       aria-hidden="true"
@@ -102,7 +102,7 @@
                         role="combobox"
                         spellcheck="false"
                         type="text"
-                        value=""
+                        value="default"
                       />
                       <div
                         class="MuiAutocomplete-endAdornment css-p1olib-MuiAutocomplete-endAdornment"
@@ -328,7 +328,7 @@
                       class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
                       id=":mock-test-id:"
                       type="text"
-                      value=""
+                      value="0 2 * * *"
                     />
                     <fieldset
                       aria-hidden="true"
@@ -386,7 +386,7 @@
                       class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
                       id=":mock-test-id:"
                       type="text"
-                      value=""
+                      value="Etc/UTC"
                     />
                     <fieldset
                       aria-hidden="true"
@@ -438,14 +438,14 @@
                       role="combobox"
                       tabindex="0"
                     >
-                      Allow
+                      Forbid
                     </div>
                     <input
                       aria-hidden="true"
                       aria-invalid="false"
                       class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
                       tabindex="-1"
-                      value="Allow"
+                      value="Forbid"
                     />
                     <svg
                       aria-hidden="true"
@@ -568,7 +568,7 @@
                         min="0"
                         step="1"
                         type="number"
-                        value=""
+                        value="300"
                       />
                       <fieldset
                         aria-hidden="true"
@@ -781,8 +781,8 @@
                         class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
                       >
                         <label
-                          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined css-10fydcw-MuiFormLabel-root-MuiInputLabel-root"
-                          data-shrink="false"
+                          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-1f7ywh2-MuiFormLabel-root-MuiInputLabel-root"
+                          data-shrink="true"
                           for=":mock-test-id:"
                           id=":mock-test-id:"
                         >
@@ -797,14 +797,14 @@
                             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
                             id=":mock-test-id:"
                             type="text"
-                            value=""
+                            value="cleanup"
                           />
                           <fieldset
                             aria-hidden="true"
                             class="MuiOutlinedInput-notchedOutline css-r01yff-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline"
                           >
                             <legend
-                              class="css-njhac4-MuiNotchedOutlined-root"
+                              class="css-sl37lx-MuiNotchedOutlined-root"
                             >
                               <span>
                                 Name *
@@ -817,8 +817,8 @@
                         class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
                       >
                         <label
-                          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined css-10fydcw-MuiFormLabel-root-MuiInputLabel-root"
-                          data-shrink="false"
+                          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-1f7ywh2-MuiFormLabel-root-MuiInputLabel-root"
+                          data-shrink="true"
                           for=":mock-test-id:"
                           id=":mock-test-id:"
                         >
@@ -833,14 +833,14 @@
                             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
                             id=":mock-test-id:"
                             type="text"
-                            value=""
+                            value="busybox:1.36"
                           />
                           <fieldset
                             aria-hidden="true"
                             class="MuiOutlinedInput-notchedOutline css-r01yff-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline"
                           >
                             <legend
-                              class="css-njhac4-MuiNotchedOutlined-root"
+                              class="css-sl37lx-MuiNotchedOutlined-root"
                             >
                               <span>
                                 Image *
@@ -886,7 +886,7 @@
                         </div>
                       </div>
                       <button
-                        aria-label="Remove container "
+                        aria-label="Remove container cleanup"
                         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-hvz71z-MuiButtonBase-root-MuiIconButton-root"
                         tabindex="0"
                         type="button"
@@ -931,7 +931,7 @@
                             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
                             id=":mock-test-id:"
                             type="text"
-                            value=""
+                            value="["sh","-c","echo cleanup"]"
                           />
                           <fieldset
                             aria-hidden="true"
@@ -978,14 +978,14 @@
                             role="combobox"
                             tabindex="0"
                           >
-                            Always
+                            IfNotPresent
                           </div>
                           <input
                             aria-hidden="true"
                             aria-invalid="false"
                             class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
                             tabindex="-1"
-                            value="Always"
+                            value="IfNotPresent"
                           />
                           <svg
                             aria-hidden="true"
@@ -1080,7 +1080,7 @@
                       role="combobox"
                       tabindex="0"
                     >
-                      Never
+                      OnFailure
                     </div>
                     <input
                       aria-hidden="true"
@@ -1088,7 +1088,7 @@
                       class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
                       required=""
                       tabindex="-1"
-                      value="Never"
+                      value="OnFailure"
                     />
                     <svg
                       aria-hidden="true"

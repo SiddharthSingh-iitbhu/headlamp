@@ -196,21 +196,13 @@ export const useNavBarMode = () => {
  * Creates a Material UI theme from our own simple theme definition
  */
 export function createMuiTheme(currentTheme: AppTheme) {
+  const defaultTheme = createTheme();
+
   const commonRules = {
-    // @todo: Remove this once we have tested and fixed the theme for the new breakpoints.
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 600,
-        md: 960,
-        lg: 1280,
-        xl: 1920,
-      },
-    },
     mixins: {
       toolbar: {
         minHeight: 64,
-        '@media (max-width:600px)': {
+        [defaultTheme.breakpoints.down('sm')]: {
           minHeight: 60,
         },
       },

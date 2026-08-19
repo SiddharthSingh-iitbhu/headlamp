@@ -108,8 +108,8 @@
               </button>
               <button
                 aria-label="Blue"
-                aria-pressed="false"
-                class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard css-1nf42o8-MuiButtonBase-root-MuiToggleButton-root"
+                aria-pressed="true"
+                class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-standard css-1nf42o8-MuiButtonBase-root-MuiToggleButton-root"
                 data-mui-internal-clone-element="true"
                 tabindex="0"
                 type="button"

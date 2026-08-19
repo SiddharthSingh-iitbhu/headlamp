@@ -101,7 +101,8 @@ function getUserDisplayName(
 
 export default function TopBar({}: TopBarProps) {
   const dispatch = useDispatch();
-  const isMedium = useMediaQuery('(max-width:960px)');
+  const theme = useTheme();
+  const isMedium = useMediaQuery(theme.breakpoints.down('md'));
 
   const isSidebarOpen = useTypedSelector(state => state.sidebar.isSidebarOpen);
   const isSidebarOpenUserSelected = useTypedSelector(

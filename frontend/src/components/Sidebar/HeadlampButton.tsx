@@ -17,6 +17,7 @@
 import { Icon } from '@iconify/react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { styled } from '@mui/system';
 import { useTranslation } from 'react-i18next';
@@ -43,7 +44,8 @@ export default function HeadlampButton({
   mobileOnly,
   disabled = false,
 }: HeadlampButtonProps) {
-  const isSmall = useMediaQuery('(max-width:600px)');
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
   const { t } = useTranslation();
 
   if (mobileOnly && (!isSmall || (isSmall && open))) {
